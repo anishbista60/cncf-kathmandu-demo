@@ -41,14 +41,14 @@ Here’s a step-by-step guide to create Docker images and push them to Docker Hu
 ### Step 3: Build the Docker Image
 1. **Build your Docker image:**
    ```bash
-   docker build -t demoapp:v1 .
+   docker build -t todoapp:v1 .
    ```
 
 ### Step 4: Run the Docker Image Locally (Optional)
 1. **Run your Docker image to test it:**
   
    ```bash
-   docker run -d -p 8080:8000 demoapp:v1
+   docker run -d -p 8080:8000 todoapp:v1
    ```
 
 ### Step 5: Create a Docker Hub Account
