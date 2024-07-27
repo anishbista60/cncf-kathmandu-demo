@@ -1,4 +1,4 @@
-Certainly! Here’s a step-by-step guide to create Docker images and push them to Docker Hub:
+Here’s a step-by-step guide to create Docker images and push them to Docker Hub:
 
 ### Step 1: Install Docker
 1. **Windows/Mac:**
@@ -41,21 +41,14 @@ Certainly! Here’s a step-by-step guide to create Docker images and push them t
 ### Step 3: Build the Docker Image
 1. **Build your Docker image:**
    ```bash
-   docker build -t <image_name>:tag .
-   ```
-   Example:
-   ```bash
    docker build -t demoapp:v1 .
    ```
 
 ### Step 4: Run the Docker Image Locally (Optional)
 1. **Run your Docker image to test it:**
+  
    ```bash
-   docker run  -d -p 8000:8000 <image_name>
-   ```
-   Example:
-   ```bash
-   docker run -d -p 8080:8080 demoapp:v1
+   docker run -d -p 8080:8000 demoapp:v1
    ```
 
 ### Step 5: Create a Docker Hub Account
@@ -69,9 +62,9 @@ Certainly! Here’s a step-by-step guide to create Docker images and push them t
 ### Step 6: Push the Docker Image to Docker Hub
 1. **Push your Docker image:**
    ```bash
-   docker tag demoapp:v1 anishbista60/demo-app
+   docker tag todoapp:v1 anish60/demo-app
    ```
-   Example:
+   
    ```bash
    docker push anishbista/go-app:latest
    ```
