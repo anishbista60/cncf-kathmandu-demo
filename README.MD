@@ -62,11 +62,11 @@ Here’s a step-by-step guide to create Docker images and push them to Docker Hu
 ### Step 6: Push the Docker Image to Docker Hub
 1. **Push your Docker image:**
    ```bash
-   docker tag todoapp:v1 anish60/demo-app
+   docker tag todoapp:v1 anish60/demo-app:v1
    ```
    
    ```bash
-   docker push anishbista/go-app:latest
+   docker push anish60/demo-app:v1
    ```
 
 ### Step 7: Verify the Docker Image on Docker Hub
