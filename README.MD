@@ -16,7 +16,7 @@ ps -ef | grep nginx
 lsns -p <process-id>
 ```
 
-Here’s a step-by-step guide to create Docker images and push them to Docker Hub:
+# Here’s a step-by-step guide to create Docker images and push them to Docker Hub:
 
 ### Step 1: Install Docker
 1. **Windows/Mac:**
