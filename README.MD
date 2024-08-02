@@ -36,7 +36,7 @@ lsns -p <process-id>
    ```
 
 2. **Create a `Dockerfile`:**
-   ```Dockerfile
+```
 # Stage 1: Build (Golang environment)
 FROM golang:alpine AS builder
 
@@ -66,7 +66,7 @@ EXPOSE 8000
 
 # Command to run the application
 CMD ["/app/your-app"]
-   ```
+```
 
 ### Step 3: Build the Docker Image
 1. **Build your Docker image:**
