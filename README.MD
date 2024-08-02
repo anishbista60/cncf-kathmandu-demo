@@ -1,3 +1,21 @@
+### Linux NameSpaces
+
+```
+docker run nginx --image nginx 
+
+```
+# See the all the process running in your system  and filter out nginx process 
+
+```
+ps -ef | grep nginx 
+```
+
+# see the linux namspaces 
+
+``` 
+lsns -p <process-id>
+```
+
 Here’s a step-by-step guide to create Docker images and push them to Docker Hub:
 
 ### Step 1: Install Docker
