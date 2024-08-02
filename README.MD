@@ -1,16 +1,16 @@
-### Linux NameSpaces
+# Linux NameSpaces
 
 ```
 docker run nginx --image nginx 
 
 ```
-# See the all the process running in your system  and filter out nginx process 
+### Check all the process running in your OS  and filter out nginx process 
 
 ```
 ps -ef | grep nginx 
 ```
 
-# see the linux namspaces 
+### Check the linux namspaces 
 
 ``` 
 lsns -p <process-id>
