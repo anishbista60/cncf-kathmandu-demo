@@ -36,7 +36,7 @@ lsns -p <process-id>
    ```
 
 2. **Create a `Dockerfile`:**
-```
+```Dockerfile
 # Stage 1: Build (Golang environment)
 FROM golang:alpine AS builder
 
