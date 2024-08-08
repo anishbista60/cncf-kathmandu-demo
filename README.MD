@@ -1,7 +1,7 @@
 # Linux NameSpaces
 
 ```
-docker run nginx --image nginx 
+docker run -d -p 80:80 nginx  
 
 ```
 ### Check all the process running in your OS  and filter out nginx process 
