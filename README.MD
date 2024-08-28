@@ -1,19 +1,7 @@
-# Linux NameSpaces
+# First clone this repo to your local machine 
 
 ```
-docker run -d -p 80:80 nginx  
-
-```
-### Check all the process running in your OS  and filter out nginx process 
-
-```
-ps -ef | grep nginx 
-```
-
-### Check the linux namspaces 
-
-``` 
-lsns -p <process-id>
+git clone https://github.com/anishbista60/cncf-kathmandu-demo.git
 ```
 
 # Here’s a step-by-step guide to create Docker images and push them to Docker Hub:
@@ -35,7 +23,7 @@ lsns -p <process-id>
    cd cncf-kathmandu
    ```
 
-2. **Create a `Dockerfile`:**
+2. **Create a `Dockerfile`:** 
 ```Dockerfile
 # Stage 1: Build (Golang environment)
 FROM golang:alpine AS builder
@@ -67,6 +55,7 @@ EXPOSE 8000
 # Command to run the application
 CMD ["/app/your-app"]
 ```
+` This is the same dockerfile that is present in `Dockerfile` project directory
 
 ### Step 3: Build the Docker Image
 1. **Build your Docker image:**
