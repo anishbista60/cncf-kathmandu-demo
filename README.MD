@@ -55,7 +55,7 @@ EXPOSE 8000
 # Command to run the application
 CMD ["/app/your-app"]
 ```
-` This is the same dockerfile that is present in `Dockerfile` project directory
+This is the same dockerfile that is present in `Dockerfile` project directory
 
 ### Step 3: Build the Docker Image
 1. **Build your Docker image:**
